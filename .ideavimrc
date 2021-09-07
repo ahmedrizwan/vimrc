@@ -1,0 +1,12 @@
+source ~/.vimrc
+
+map <silent> <C-,> <Action>(StretchSplitToBottom)<CR>
+map <silent> <C-.> <Action>(StretchSplitToTop)<CR>
+map <silent> <M-C-.> <Action>(StretchSplitToRight)<CR>
+map <silent> <M-C-,> <Action>(StretchSplitToLeft)<CR>
+
+map <silent> <M-C-h> <C-w>h
+map <silent> <M-C-j> <C-w>j
+map <silent> <M-C-k> <C-w>k
+map <silent> <M-C-l> <C-w>l
+map <silent> <M-C-f> <Action>(MaximizeEditorInSplit)<CR>
